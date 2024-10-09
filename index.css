@@ -427,7 +427,7 @@
 }
 
 .buy-course-section-left {
-  width: 25%;
+  width: 40%;
   display: flex;
   align-items: start;
   gap: 16px;
@@ -435,7 +435,7 @@
 }
 
 .buy-course-section-right {
-  width: 75%;
+  width: 60%;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -1278,4 +1278,20 @@ a.btn-block {
   height: 32px;
   width: 32px;
   background: var(--gradient-primary);
+}
+
+
+.custom-carousal .carousel-indicators [data-bs-target]{
+  background-color: #B61A1A4D !important;
+  height: 7px !important;
+  width: 7px !important;
+  border-radius: 100% !important;
+}
+
+.custom-carousal .carousel-indicators{
+  gap: 14px !important;
+}
+.custom-carousal .carousel-indicators .active {
+opacity: 1 !important;
+background-color: #E30004 !important;
 }
